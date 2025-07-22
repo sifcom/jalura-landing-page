@@ -6,33 +6,47 @@
   <title>JALURA | Farm the Aura. Race the Memes.</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
 <style>
-/* Mobile fix for Tokenomics section */
+/* Responsive Tokenomics Styling */
+.tokenomics {
+  padding: 60px 100px;
+  text-align: center;
+}
+
+.tokenomics img {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 768px) {
-  .tokenomics img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    padding: 10px;
+  .tokenomics {
+    padding: 40px 20px;
   }
 
-  .tokenomics {
-    padding: 20px;
-    text-align: center;
+  .tokenomics img {
+    max-width: 100%;
+    padding: 0;
   }
 }
 
-/* Extra small screen adjustments */
 @media screen and (max-width: 480px) {
+  .tokenomics {
+    padding: 30px 10px;
+  }
+
   .tokenomics h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .tokenomics p {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 }
 </style>
+ 
 <style>
     * {
       box-sizing: border-box;
