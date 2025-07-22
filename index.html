@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JALURA | Farm the Aura. Race the Memes.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: #0f0f0f;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      background: radial-gradient(circle at top, #00c3ff, #000);
+      padding: 60px 20px;
+      text-align: center;
+      animation: fadeIn 1.5s ease-in;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      color: #ffcc00;
+      text-shadow: 2px 2px 10px #000;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #ddd;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeInUp 1s ease-in;
+    }
+    .section-title {
+      font-size: 2em;
+      color: #00ffff;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #00ffff;
+      padding-bottom: 10px;
+    }
+    .tokenomics, .roadmap, .vesting, .raise-plan {
+      background: #1a1a1a;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 15px #00ffff33;
+      transition: transform 0.3s ease;
+      margin-bottom: 40px;
+    }
+    .tokenomics:hover, .roadmap:hover, .vesting:hover, .raise-plan:hover {
+      transform: scale(1.02);
+    }
+    table {
+      width: 100%;
+      color: #fff;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #333;
+      text-align: left;
+    }
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 40px 20px;
+      color: #888;
+      font-size: 0.9em;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .cta a {
+      background: #ffcc00;
+      color: #000;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 4px 12px rgba(255, 204, 0, 0.4);
+    }
+    .cta a:hover {
+      background: #ffaa00;
+      transform: scale(1.05);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2em;
+      }
+      .section-title {
+        font-size: 1.6em;
+      }
+      .cta a {
+        padding: 12px 20px;
+        font-size: 0.9em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>$JALURA</h1>
+    <p>Farm the Aura. Race the Memes.</p>
+  </header>
+
+  <section>
+    <div class="section-title">🌊 The Story of Jalura</div>
+    <p>$JALURA is inspired by Pacu Jalur and Aura Farming — a cultural meme movement turning energy into digital gold. Join the tribe that vibes.</p>
+  </section>
+
+  <section class="tokenomics">
+    <div class="section-title">📊 Tokenomics</div>
+    <table>
+      <tr><th>Allocation</th><th>Percentage</th><th>Tokens</th></tr>
+      <tr><td>Bonding Curve</td><td>65%</td><td>650,000,000</td></tr>
+      <tr><td>Pool Migration</td><td>20%</td><td>200,000,000</td></tr>
+      <tr><td>Vesting</td><td>15%</td><td>150,000,000</td></tr>
+    </table>
+  </section>
+
+  <section class="raise-plan">
+    <div class="section-title">💰 Raise Target</div>
+    <p>We’re raising <strong>200 SOL</strong> via Raydium Launchpad to fund:</p>
+    <ul>
+      <li>🔥 Liquidity Seeding – 40%</li>
+      <li>📢 Marketing & PR – 40%</li>
+      <li>⚙️ Ops & Development – 15%</li>
+      <li>🎁 Community Incentives – 5%</li>
+    </ul>
+  </section>
+
+  <section class="vesting">
+    <div class="section-title">🧠 Team Vesting Plan</div>
+    <p>To protect our community, the team’s 15% token share is <strong>locked and vested</strong>:</p>
+    <ul>
+      <li>⏳ Vesting Period: 12 months</li>
+      <li>🧱 Cliff: 3 months (no tokens unlocked)</li>
+      <li>📈 Unlock: 8.33% monthly after the cliff</li>
+    </ul>
+  </section>
+
+  <section class="roadmap">
+    <div class="section-title">📈 Roadmap</div>
+    <ol>
+      <li>🌱 Phase 1 – Community & Hype Setup</li>
+      <li>🚀 Phase 2 – Raydium Launch & Initial Listings</li>
+      <li>🌀 Phase 3 – Memetic Expansion & Cultural NFTs</li>
+      <li>🌐 Phase 4 – DAO Activation & Game Utilities</li>
+    </ol>
+  </section>
+
+  <section>
+    <div class="section-title">📎 Quick Links</div>
+    <ul>
+      <li>🌍 Website: <a href="https://jalura.io" style="color:#ffcc00;">https://jalura.io</a></li>
+      <li>📄 Whitepaper: <a href="https://github.com/sifcom/JaluraMemeCoin/blob/whitepaper/JALURA_Whitepaper.md" style="color:#00ffff;">GitHub – JALURA Whitepaper</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-title">🚀 Ready to Paddle?</div>
+    <div class="cta">
+      <a href="https://t.me/JALURAcoin" target="_blank">Join the Telegram</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 $JALURA. Built by the Aura. Powered by the People.</p>
+    <p><strong>Disclaimer:</strong> $JALURA is a meme coin for cultural entertainment only. It does not represent financial advice or investment guarantees. Always DYOR (Do Your Own Research).</p>
+  </footer>
+</body>
+</html>
