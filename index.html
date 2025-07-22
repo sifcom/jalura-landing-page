@@ -5,7 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JALURA | Farm the Aura. Race the Memes.</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
-  <style>
+<style>
+/* Mobile fix for Tokenomics section */
+@media screen and (max-width: 768px) {
+  .tokenomics img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .tokenomics {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+/* Extra small screen adjustments */
+@media screen and (max-width: 480px) {
+  .tokenomics h2 {
+    font-size: 1.3rem;
+  }
+
+  .tokenomics p {
+    font-size: 0.95rem;
+  }
+}
+</style>
+<style>
     * {
       box-sizing: border-box;
     }
